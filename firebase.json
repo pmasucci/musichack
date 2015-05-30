@@ -1,0 +1,9 @@
+{
+  "firebase": "photosynth",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(2,200,255);
+}
+
+#firstline {
+  background-color: rgb(255,255,0);
+  width: 380px;
+  height: 70px;
+  margin: 20px;
+  float: left;
+
+}
+
+#circle {
+  background-color: rgb(255,153,255);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 100px;
+  float:left;
+}
+
+#secondcircle {
+  background-color: rgb(255,51,51);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 350px;
+}
+
+#bigjello {
+  background-color: rgb(127,0,255);
+  width: 300px;
+  height: 300px;
+  border-radius: 130px 130px 20px 20px;
+  margin: 50px;
+  float: left;
+}
+
+#secondline {
+  background-color: rgb(51,51,255);
+  width: 200px;
+  height: 80px;
+  margin: 50px;
+  float:right;
+}
+
+#square {
+  background-color: rgb(0,204,0);
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  float: right;
+  clear: both;
+}
+.eye {
+  background-color: rgb(0,0,0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 40px;
+  float:left;
+}
+
+#blob {
+  background-color: rgb(0,255,128);
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  float:left;
+
+
+    -webkit-animation: mymove 60s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation: mymove 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    20% {border-radius: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    20% {border-radius: 100px;}
+}
+
